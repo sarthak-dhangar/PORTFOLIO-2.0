@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("pexels-nemuel-sereti-6424589.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+.main{
+    width: 400px;
+    margin: 100px auto 0px auto;
+
+}
+h2{
+    text-align: center;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.register{
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 2px 2px 15px;
+    color: #fff;
+}
+#register{
+    margin: 40px;
+}
+label{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: italic;
+}
+#name{
+    width: 100%;
+    border-radius: 8px;
+    padding: 8px;
+}
+#submit{
+    width: 300px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: sans-serif;
+    border-radius: 5px;
+    background-color: aqua;
+    cursor: pointer;
+
+}
+#submit:hover{
+    background-color: blue;
+    color:#fff;
+}

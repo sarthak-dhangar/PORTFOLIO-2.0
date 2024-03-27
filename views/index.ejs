@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Sarthak.<span class="animate" style="--i:1;"></span></a>
+
+        <div class="bx bx-menu" id="menu-icon"><span class="animate" style="--i:2;"></span></div>
+        <nav class="navbar">
+            <a href="#Home" class="active">Home</a>
+            <a href="#About">About</a>
+            <a href="#Skills">Skills</a>
+            <a href="#Contact">Contact</a>
+            <a href="#" download="Resume" >See My Resume</a>
+
+            <span class="active-nav"></span>
+            <span class="animate" style="--i:2;"></span>
+        </nav>
+    </header>
+
+    <a name="Home"></a>
+    <section class="home show-animate" id="home">
+        <div class="home-content">
+            <h1>Hi, I'm <span>Sarthak Dhangar</span></h1>
+            <div class="text-animate">
+                <h3>WEB DEVELOPER......</h3>
+            </div>
+            <p>I'm a  web developer with a passion for crafting engaging and user-friendly web experiences.
+            </p>
+
+            <div class="btn-box">
+                <!-- <a href="views/hire.ejs" class="btn" target="_blank">Hire Me</a> -->
+                <a href="#" class="btn">Let's Talk</a>
+            </div>
+        </div>
+        <div class="home-sci">
+            <a href="https://www.facebook.com/sarthak.dhangar.58?mibextid=ZbWKwL" target="_blank"><i class='bx bxl-facebook'></i></a>
+            <a href="https://twitter.com/Sarthak73192945?t=9AEc3_V-joAHBAL4InCsKw&s=08" target="_blank"><i class='bx bxl-twitter'></i></a>
+            <a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3B50B%2Bdy4sR5ineXydA1MKcA%3D%3D" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+        </div>
+        <div class="home-imgHover"></div>
+    </section>
+
+    <!-- //about section// -->
+    <a name="About"></a>
+    <section class="about" id="about">
+        <h2 class="heading">About <span>Me</span></h2>
+
+        <div class="about-img">
+            <img src="assets/img/myimage-removebg-preview.png" alt="">
+            <span class="circle-spin"></span>
+        </div>
+
+        <div class="about-content">
+            <h3>Frontend Developer!</h3>
+            <p>I am a highly skilled and passionate web developer with expertise in data structures, algorithms, and Java programming. With a strong foundation in these areas, I am constantly seeking to expand my knowledge and stay up-to-date with the latest industry trends.
+
+                As a web developer, I thrive in creating efficient and user-friendly web applications. My understanding of data structures and algorithms allows me to design robust and scalable solutions that deliver optimal performance. I am well-versed in front-end technologies like HTML, CSS, and JavaScript.
+                
+                I am dedicated to producing clean and maintainable code while adhering to best practices and industry standards. Through my experience in web development projects, I have developed a keen eye for detail and a strong ability to troubleshoot and debug complex issues. I am always eager to take on new challenges and find innovative solutions to enhance user experiences.</p>
+
+            <div class="btn-box btns">
+                <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- skills section -->
+    <a name="Skills"></a>
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="skills-row">
+            <div class="skills-column">
+                <h3 class="title">Coding skills</h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>HTML <span>90%</span></h3>
+                            <div class="bar"><Span></Span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>CSS <span>85%</span></h3>
+                            <div class="bar"><Span></Span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>JavaScript <span>75%</span></h3>
+                            <div class="bar"><Span></Span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>JAVA <span>85%</span></h3>
+                            <div class="bar"><Span></Span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Data Structure and Algorithm <span>70%</span></h3>
+                            <div class="bar"><Span></Span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>NodeJS and ExpressJs<span>85%</span></h3>
+                            <div class="bar"><Span></Span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>MongoDB<span>70%</span></h3>
+                            <div class="bar"><Span></Span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>ReactJs<span>75%</span></h3>
+                            <div class="bar"><Span></Span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- contact section design -->
+<a name="Contact"></a>
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="" method="POST">
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" placeholder="Full Name" name="name">
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Email Address" name="email">
+                    <span class="focus"></span>
+                </div>
+            </div>
+
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" placeholder="Mobile number" name="mobile">
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Email Subject"
+                    name="subject" required>
+                    <span class="focus"></span>
+                </div>
+            </div>
+
+            <div class="textarea-field">
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message" required ></textarea>
+                <span class="focus"></span>
+            </div>
+
+            <div class="btn-box btns">
+                <button type="submit" class="btn">Submit</button>
+            </div>
+        </form>
+    </section>
+
+
+    <!-- footer design -->
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by SARTHAK | All Rights Reserved</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
